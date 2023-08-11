@@ -1,0 +1,21 @@
+{
+  "name": "airdrop_sol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "rebuild": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@solana/web3.js": "^1.78.4",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "bigint-buffer": "^1.1.5"
+  }
+}
